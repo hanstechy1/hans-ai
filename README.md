@@ -1,2 +1,3 @@
-  <img src="https://chatgpt.com/s/m_69d41a56a1a88191b953dd245e9f78b7.jpg" alt="Banner ai" width="600"/>
+  <img 
+    src="https://i.ibb.co/nsypB0gt/7-Dom-MNb-Yu-M.jpg" alt="Banner ai" width="600"/>
 </p>
