@@ -1,0 +1,15 @@
+.store {
+    /* Main Store Styles */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    /* Mobile styles */
+    body {
+        font-size: 14px;
+    }
+}
