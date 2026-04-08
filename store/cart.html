@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .cart-container { max-width: 600px; margin: auto; }
+        .cart-item { display: flex; justify-content: space-between; align-items: center; margin: 10px 0; }
+        .quantity-controls { display: flex; align-items: center; }
+        button { margin-left: 5px; }
+        .checkout-button { margin-top: 20px; padding: 10px; background-color: green; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="cart-container">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-item">
+            <span>Item 1</span>
+            <div class="quantity-controls">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span>Item 2</span>
+            <div class="quantity-controls">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+        </div>
+        <button class="checkout-button">Checkout</button>
+    </div>
+</body>
+</html>
