@@ -1,18 +1,9 @@
 <!DOCTYPE html>
-<html lang="swa">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <!DOCTYPE html>
 <html lang="sw">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hans Techy Company Ltd - AI Services</title>
+  <title>Hanstechy</title>
   <style>
     body { font-family: Arial, sans-serif; margin:0; padding:0; }
     header { background: linear-gradient(to right, #000033, #0066cc); color:white; padding:20px; text-align:center; }
@@ -27,11 +18,14 @@
     form { max-width:400px; margin:auto; text-align:left; }
     form input, form textarea { width:100%; padding:10px; margin:10px 0; }
     form button { background:#0066cc; color:white; padding:10px 20px; border:none; cursor:pointer; }
+    .download-btn { background:#0066cc; color:white; padding:12px 25px; border-radius:5px; text-decoration:none; font-weight:bold; margin:10px; display:inline-block; }
+    .download-btn:hover { background:#004080; }
   </style>
 </head>
 <body>
 
 <header>
+  <logo>image.jpg</logo>
   <h1>Hans Techy Company Ltd</h1>
   <p>AI kwa Biashara na Maisha Bora</p>
   <nav>
@@ -50,6 +44,22 @@
   <h2>Karibu Hans Techy</h2>
   <p>Tunatoa huduma za kisasa za AI kwa biashara na jamii.</p>
   <img src="https://i.ibb.co/w5S7GWH/D3-Oew-UNAZY.jpg" alt="AI Banner" style="width:80%; border-radius:10px;">
+
+  <!-- Video Section -->
+  <video width="80%" controls style="border-radius:10px; margin-top:20px;">
+    <source src="video/hans-techy-intro.mp4" type="video/mp4">
+    Browser yako haiwezi kuonyesha video hii.
+  </video>
+
+  <!-- Download Buttons -->
+  <div style="margin-top:20px;">
+    <a href="downloads/hans-techy-brochure.pdf" download class="download-btn">
+      Download Brochure
+    </a>
+    <a href="downloads/hans-techy-app.apk" download class="download-btn">
+      Download App
+    </a>
+  </div>
 </section>
 
 <section id="about">
@@ -112,9 +122,8 @@
     <textarea name="message" rows="5" required></textarea>
     <button type="submit">Send Message</button>
   </form>
-  </div>
-</section>
-    <!-- Social Media -->
+
+<!-- Social Media -->
 <div style="text-align:center; margin-top:20px;">
   <a href="https://wa.me/255674688818" target="_blank" style="margin:0 10px; font-size:28px; color:#25D366;">
     <i class="fab fa-whatsapp"></i>
@@ -141,4 +150,4 @@
 </footer>
 
 </body>
-</html>
+</html> 
